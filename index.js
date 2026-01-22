@@ -277,5 +277,5 @@ fastify.listen({ port: PORT, host: '0.0.0.0' }, (err) => {
         console.error(err);
         process.exit(1);
     }
-    console.log(`Server is listening on port ${PORT}`);
+console.log(`LISTEN_OK_0000 port=${PORT} host=0.0.0.0`);
 });
